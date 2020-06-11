@@ -46,6 +46,6 @@ conda env create -f environment.yml
 To reproduce the result in the paper:
 
 ```sh
-source Scripts/reproduce.sh
+source reproduce.sh
 ```
 
