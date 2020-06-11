@@ -1,0 +1,31 @@
+parameters:
+    #data
+    all_data: False
+    combine_val: True
+    data: cifar100
+    num_tasks: 10
+    fixed_order: True
+    #train
+    disp_freq_train: 200
+    optimizer: GD
+    train_scheme: full
+    seperate: False
+    random_seed: 0
+    num_runs: 15
+    epoch: 1
+    batch: 10
+    #model
+    model: EWC
+    head: single
+    arch: resnet18_s
+    multi_label: False
+    pretrained: False
+    #EWC only
+    lambda_: 10
+    fisher_ema_decay: 0.9
+    fisher_update_after: 50
+    learning_rate: 0.1
+
+
+
+

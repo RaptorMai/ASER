@@ -1,0 +1,44 @@
+parameters:
+    #data
+    all_data: False
+    combine_val: True
+    data: cifar10
+    num_tasks: 5
+    fixed_order: True
+    #train
+    disp_freq_train: 200
+    optimizer: GD
+    train_scheme: full
+    seperate: False
+    random_seed: 0
+    #change
+    num_runs: 15
+    epoch: 1
+    batch: 10
+    #model
+    pretrained: False
+    multi_label: False
+    head: single
+    arch: resnet18_s
+    model: SVKNN
+    dist: 0
+    mem_size: 50
+    eps_mem_batch: 10
+    num_iter_batch: 1
+    is_adversarial_sv: True
+    is_offline: False
+    #change
+    is_sv_update: False
+    #change
+    is_sv_retrieval: False
+    is_penalized_curr_task: False
+    adv_coeff: 1.0
+    adversarial_type: max
+    is_accum_curr: True
+    is_mir: False
+    #change
+    is_dist_retrieval: True
+    #tune
+    max_num_samples: 90
+    num_k: 3
+    learning_rate: 0.1

@@ -1,0 +1,35 @@
+parameters:
+    #data
+    all_data: False
+    combine_val: True
+    data: miniimagenet
+    num_tasks: 10
+    fixed_order: True
+    #train
+    disp_freq_train: 200
+    optimizer: GD
+    train_scheme: full
+    seperate: False
+    random_seed: 0
+    num_runs: 15
+    epoch: 1
+    batch: 10
+    #model
+    model: MIR
+    head: single
+    arch: resnet18_s
+    multi_label: False
+    pretrained: False
+    num_iter_batch: 1
+    mem_size: 10
+    eps_mem_batch: 10
+    subsample: 50
+    balanced_sampling: False
+    is_mir: True
+    #neptune
+    learning_rate: 0.1
+
+
+
+
+
