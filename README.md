@@ -15,7 +15,7 @@
 ![](https://img.shields.io/badge/sklearn-0.20.1-blue.svg)
 ![](https://img.shields.io/badge/tensorflow-1.14.0-blue.svg)
 
-## Notes
+## Notes !!
 - This repository contains the TensorFlow implementation of ASER and other baselines. The results in the paper can be reproduced by following the instructions below.
 - PyTorch implementation of ASER and more baselines can be found in [this repository](https://github.com/RaptorMai/online-continual-learning). Note that the PyTorch version is more efficient than the original TensorFlow implementation and has better performance.
 
